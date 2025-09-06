@@ -1,0 +1,1 @@
+{"name":"CTZ","expiry":"2027/07/23","mfg":"2023/05/04","rate":300,"mrp":400,"quantity":1}

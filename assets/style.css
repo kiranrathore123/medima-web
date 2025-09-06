@@ -1,0 +1,59 @@
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+}
+
+#searchResults {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#searchResults ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.fixed-bottom button {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    transition: 0.2s ease all;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary,
+.btn-danger {
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+h2.fw-bold {
+    font-size: 2rem;
+    color: #0d6efd;
+}
